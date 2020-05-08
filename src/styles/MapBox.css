@@ -1,0 +1,62 @@
+.mapContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 30%;
+}
+
+.fullMap {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.User-Location {
+    font-size: 0.7rem;
+    visibility: hidden;
+    text-align: right;
+}
+
+.User-Location-Button {
+    position: absolute;
+    top: 3rem;
+    right: 19.5%;
+    z-index: 2;
+}
+
+.Green-Icon {
+    color: #033B45;
+}
+
+.User-Location-Button:hover > .User-Location {
+    visibility: visible;
+}
+
+.Green-Icon:hover {
+    color: #FF4274;
+}
+
+/* Navigation Control */
+.mapboxgl-ctrl-group {
+    width: 30px;
+    margin: 10px 0 0 10px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* FOR DESKTOP */ 
+    .fullMap {
+        position: absolute;
+        width: 100%;
+        height: 80%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+}

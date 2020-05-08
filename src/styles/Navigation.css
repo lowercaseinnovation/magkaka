@@ -1,0 +1,44 @@
+.Top-Navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.Top-Navigation {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.Main-Header {
+    font-size: 1.2rem;
+    color: #033B45; 
+}
+
+.Static-Page-Navigation {
+    border-top: 1px solid #033B45;
+    border-bottom: 1px solid #033B45;
+    padding: 0.5rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem auto;
+}
+
+.Static-Page-Navigation > .Page-Link {
+    margin: 0.5rem 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .Static-Page-Navigation {
+        flex-direction: row;
+        width: 70%;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Static-Page-Navigation > .Page-Link {
+        margin: 0;
+    }
+}

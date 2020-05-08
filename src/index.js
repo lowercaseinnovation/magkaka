@@ -3,6 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import mapboxgl from 'mapbox-gl';
+import Amplify from 'aws-amplify'
+import config from './aws-exports'
+Amplify.configure(config)
+
+mapboxgl.accessToken = 'pk.eyJ1IjoibG93ZXJjYXNlaW5ub3ZhdGlvbiIsImEiOiJjazl0aHMzaGIwNHZjM2ZwbnRyODJtMWIwIn0.i4XW8ShLGXgGTKpn8uDH3Q'
 
 ReactDOM.render(
   <React.StrictMode>

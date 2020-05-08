@@ -1,0 +1,14 @@
+{
+    "permissions": {
+        "auth": {
+            "mgkklc7656efdd": [
+                "read"
+            ]
+        },
+        "api": {
+            "mgkklc": [
+                "create"
+            ]
+        }
+    }
+}

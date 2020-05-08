@@ -1,0 +1,22 @@
+type Person @model 
+@auth (rules: [{ allow: owner }])
+{
+  id: ID!
+  name: String!
+  neighborhood: String!
+  city: String
+  province: String
+  country: String
+}
+
+type Visit @model 
+@auth (rules: [{ allow: owner }])
+{
+  id: ID!
+  place: String!
+  neighborhood: String!
+  city: String
+  province: String
+  country: String
+}
+

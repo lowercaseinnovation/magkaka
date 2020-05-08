@@ -1,0 +1,190 @@
+.Data-Legend-Container {
+    margin: 0.5rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+.Data-Legend-Header,
+.Infographics-Section-Header,
+.Infographics-Group-Header  {
+    font-size: 0.8rem;
+    font-weight: bolder;
+    padding-right: 1rem;
+}
+
+.Data-Legend-Key-Container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Data-Legend-Marker {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin-left: 15px;
+}
+
+.Actual-Data-Legend-Marker {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    display: block;
+}
+
+.Actual-Data-Legend-Marker:hover {
+    width: 15px;
+    height: 15px;
+}
+
+.Data-Legend-Label {
+    display: block;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 5px;
+    font-size: 0.8rem;
+    visibility: hidden;
+}
+
+.Data-Legend-Key-Container:hover {
+    font-weight: bold;
+}
+
+.Data-Legend-Key-Container:hover > span {
+    visibility: visible;
+}
+
+.Vulnerable {
+    background-color: #FF4274;
+}
+
+.Positive {
+    background-color: #033B45;
+}
+
+.Negative {
+    background-color: #ABDFAB;
+}
+
+.With {
+    background-color: #9932CC;
+}
+
+.Without {
+    background-color: #FF83FA;
+}
+
+.Infographics-Container {
+    display: block;
+    min-height: 50vh;
+    margin: 1rem;
+}
+
+.Graph-Container {
+    width: 100%;
+    margin: 0.5rem auto;
+    height: 1rem;
+    display: flex;
+    background-color: #CCC;
+    justify-content: flex-end;
+}
+
+.Vulnerable-Graph {
+    width: 8.7%;
+    background-color: #FF4274;
+}
+
+.Hospital-Bed-Graph {
+    width: 16.3%;
+    background-color: #FF4274;
+}
+
+.Infographics-Info-Group-Container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Infographics-Info-Container {
+    text-align: center;
+}
+
+.Infographics-Group-Header {
+    padding-top: 1rem;
+    margin: 0;
+}
+
+.Infographics-Section-Header {
+    color: #033B45;
+    margin: 0;
+    padding: 0;
+}
+
+.Infographics-Source {
+    display: block;
+    font-size: 0.5rem;
+    padding-top: 5px;
+}
+
+.Infographics-Label, 
+.Infographics-Important-Number {
+    display: block;
+}
+
+.Infographics-Label {
+    font-size: 0.65rem;
+}
+
+.Infographics-Important-Number {
+    font-size: 2rem;
+}
+
+.CTA-Phrase {
+    padding: 1rem;
+    font-size: 0.85rem;
+    font-weight: bold;
+    background-color: #ABDFAB;
+    color: #033B45;
+}
+
+@media only screen and (min-width: 768px) {
+    /* FOR DESKTOP */ 
+    .Data-Legend-Container {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        display: flex;
+        align-items: baseline;
+        width: 50%;
+    }
+
+    .Data-Legend-Header {
+        font-size: 1rem;
+        font-weight: bolder;
+        padding-right: 1rem;
+    }
+
+    .Data-Legend-Marker {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        margin: 5px;
+    }
+    .Data-Legend-Label {
+        display: block;
+        position: absolute;
+        margin-top: 2rem;
+        margin-left: 5px;
+        font-size: 0.8rem;
+        visibility: hidden;
+    }
+    
+    .Data-Legend-Key-Container:hover {
+        font-weight: bold;
+    }
+    
+    .Data-Legend-Key-Container:hover > span,
+    .Infographics-Container
+     {
+        visibility: visible;
+    }
+}

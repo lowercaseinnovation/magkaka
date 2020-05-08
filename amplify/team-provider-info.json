@@ -1,0 +1,22 @@
+{
+    "dataviz": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-mgkk-lc-dataviz-161530-authRole",
+            "UnauthRoleArn": "arn:aws:iam::023267620524:role/amplify-mgkk-lc-dataviz-161530-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::023267620524:role/amplify-mgkk-lc-dataviz-161530-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-mgkk-lc-dataviz-161530-deployment",
+            "UnauthRoleName": "amplify-mgkk-lc-dataviz-161530-unauthRole",
+            "StackName": "amplify-mgkk-lc-dataviz-161530",
+            "StackId": "arn:aws:cloudformation:us-east-1:023267620524:stack/amplify-mgkk-lc-dataviz-161530/5c574880-81b1-11ea-908a-0aac80a39b9b",
+            "AmplifyAppId": "d1om84xg5guao9"
+        },
+        "categories": {
+            "auth": {
+                "mgkklc7656efdd": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"218861049457466\",\"client_secret\":\"56639a38bf8cfa90e073adc318b198ca\"}]"
+                }
+            }
+        }
+    }
+}

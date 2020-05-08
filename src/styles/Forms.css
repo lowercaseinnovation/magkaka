@@ -1,0 +1,59 @@
+.Label-Container {
+    display: block;
+    padding-bottom: 1rem;
+}
+
+.Label-Form {
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 3px;
+}
+
+.Input-Style-Main {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #033B45;
+    padding-bottom: 5px;
+}
+
+.Input-Style-Main:focus {
+    outline: none;
+    background-color: #ABDFAB;
+    color: #FF4274;
+}
+
+.Button {
+    margin: 0 auto;
+    background-color: #033B45;
+    color: #ABDFAB;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+}
+
+.Button:hover {
+    background-color: #FF4274;
+    color: pink;
+}
+
+.Address-Form-Container {
+    padding-top: 10px;
+}
+
+.Form-Group-Header {
+    font-size: 0.9rem;
+}
+
+.Cognito-Container {
+    height: 100vh;
+}
+
+.Form-Cognito-Container {
+    width: 50%;
+    margin: 3rem auto;
+    border: 20px solid #033B45;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 10%;
+}

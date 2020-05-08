@@ -1,0 +1,24 @@
+{ 
+  "type": "FeatureCollection",
+  "data":
+  { "type": "Feature", "geometry": { "type": "Point", "coordinates":  [ 124.6710348,6.6894437 ]}, "properties": { "CaseCode":"C756491", "Age":30, "DateRepConf":"20-Apr-20", "Admitted":"", "ProvRes":"Sultan Kudarat", "CityMunRes":"City of Tacurong", "HealthStatus":"Mild", "Quarantined":"", "Uploaded":"May 1, 1:41AM", "Source:":"DOH"} },
+    },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 125.6109271,7.0974597 ]
+    },
+    "properties": {
+    "CaseCode":"C962825",
+    "Age":28,
+    "DateRepConf":"18-Apr-20",
+    "Admitted":"Yes",
+    "ProvRes":"Davao del Sur",
+    "CityMunRes":"Davao City",
+    "HealthStatus":"Asymptomatic",
+    "Quarantined":"No",
+    "Uploaded":"May 1, 1:41AM",
+    "Source:":"DOH"
+    }
+  },

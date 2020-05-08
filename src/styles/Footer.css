@@ -1,0 +1,36 @@
+.Footer-Container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.3rem 1rem;
+    background-color: #FF4274;
+    align-items: baseline;
+    z-index: 2;
+    color: #FFF;
+}
+
+.Footer-Container p,
+.Footer-Link {
+    font-size: 0.7rem;
+    margin: 0.2rem 0;
+    font-weight: bold;
+    }
+    
+.Footer-Link:link,
+.Footer-Link:visited {
+    color: #FFF;
+    text-decoration: underline;
+}
+    
+.Footer-Link:hover {
+    background-color: #FFF;
+    color: #FF4274;
+}
+
+.Footer-Contact {
+    width: 75%;
+}
+
+.Block {
+    display: block;
+}

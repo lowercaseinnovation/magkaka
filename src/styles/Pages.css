@@ -1,0 +1,75 @@
+.Page-Container {
+    display: block;
+    margin: auto;
+    border-top: 20px solid #033B45;
+    border-bottom: 20px solid #033B45;
+}
+
+.Page-Logo {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #033B45;
+}
+
+.Page-Logo:hover {
+    color: #FF4274;
+}
+
+.Page-Header {
+    padding-top: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+.Page-Secondary-Header {
+    padding-top: 0.5rem;
+    margin: auto;
+    color: #FF4274;
+}
+
+.Page-Content {
+    margin: 1rem auto;
+    text-align: left;
+    width: 85%;
+    height: 60vh;
+    overflow: auto;
+}
+
+.NotFoundPage-Header {
+    font-size: 3rem;
+    color: #033B45;
+}
+
+.Page-Link {
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.Page-Link:hover {
+    color: #FF4274;
+}
+
+.endpoint {
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    font-size: 0.8rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .Page-Container {
+        border: 20px solid #033B45;
+        height: 100vh;
+    }
+
+    .Page-Logo {
+        font-size: 2rem;
+    }
+
+    .Page-Content {
+        margin: 2rem auto;
+        text-align: left;
+        width: 70%;
+        height: 60vh;
+        overflow: auto;
+    }
+}
