@@ -75,6 +75,16 @@
     background-color: #FF83FA;
 }
 
+.No-Test-Vulnerable {
+    border: 3px solid #FF4274;
+}
+
+.Infographics-Question {
+    font-size: 0.8rem;
+    margin-top: 5px;
+    margin-bottom: -2px;
+}
+
 .Infographics-Container {
     display: block;
     min-height: 50vh;
@@ -85,20 +95,71 @@
     width: 100%;
     margin: 0.5rem auto;
     height: 1rem;
+    font-size: 0.65rem;
     display: flex;
     background-color: #CCC;
-    justify-content: flex-end;
+    color: #CCC;
+    justify-content: flex-start;
 }
 
-.Vulnerable-Graph {
-    width: 8.7%;
-    background-color: #FF4274;
+.Graph-Key {
+    width: 10px;
+    height: 5px;
+    display: inline-block;
+    margin: 2px 5px;
+
 }
 
-.Hospital-Bed-Graph {
-    width: 16.3%;
-    background-color: #FF4274;
+.Grey {
+    background-color: #CCC;
 }
+
+.Admitted,
+.Quarantined {
+    background-color: #FF4274;
+    color: #FF4274;
+}
+
+.Admitted {
+    width: 36.22%;
+}
+
+.Not-Admitted {
+    width: 17.43%;
+}
+
+.Quarantined {
+    width: 27.05%;
+}
+
+.Not-Quarantined {
+    width: 18.37%;
+}
+
+.Not-Admitted,
+.Not-Quarantined {
+    background-color: #033B45;
+    color: #033B45;
+}
+
+/* .Inside {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+.Graph-Container:hover > .Inside {
+    color: #FFF;
+}
+
+.Not-Admitted:hover > .Inside,
+.Not-Quarantined:hover > .Inside,
+.Admitted:hover > .Inside,
+.Quarantined:hover > .Inside {
+    color: #FFF;
+} */
 
 .Infographics-Info-Group-Container {
     display: flex;
@@ -120,6 +181,10 @@
     padding: 0;
 }
 
+.Positive-Text {
+    color: #033B45;
+}
+
 .Infographics-Source {
     display: block;
     font-size: 0.5rem;
@@ -133,10 +198,16 @@
 
 .Infographics-Label {
     font-size: 0.65rem;
+    padding-bottom: 12px;
 }
 
 .Infographics-Important-Number {
     font-size: 2rem;
+    font-weight: bold;
+}
+
+.Infographics-Semi-Important-Number {
+    font-size: 1.5rem;
 }
 
 .CTA-Phrase {

@@ -24,7 +24,11 @@ function DataLegend() {
             </div>
             <div className="Data-Legend-Key-Container">
                 <div className="Data-Legend-Marker Vulnerable"></div>
-                <span className="Data-Legend-Label">Vulnerable</span>
+                <span className="Data-Legend-Label">Vulnerable and Tested Positive</span>
+            </div>
+            <div className="Data-Legend-Key-Container">
+                <div className="Data-Legend-Marker No-Test-Vulnerable"></div>
+                <span className="Data-Legend-Label">Vulnerable But Not Yet Tested</span>
             </div>
         </section>
     )

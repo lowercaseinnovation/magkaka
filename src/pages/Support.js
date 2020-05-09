@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import StaticPageNavigation from '../components/StaticPageNavigation';
 import '../styles/Pages.css';
+import '../styles/DataLegend.css';
 
 var dataModel =  {
     "CaseCode": "C100829",
@@ -37,6 +38,24 @@ function Support() {
                 <h1>Help us do better</h1>
                 <h2>Honestly, the most important thing we need from you is your honesty</h2>
                 <h2>Share</h2>
+                <div>
+                    <h3 className="Infographics-Group-Header">Missing Data From Those Confirmed Positive</h3>
+                    <div className="Infographics-Info-Group-Container">
+                        <div className="Infographics-Info-Container">
+                            <span className="Infographics-Semi-Important-Number">3,601</span>
+                            <span className="Infographics-Label">Cases older than 3 weeks without an update</span>
+                        </div>
+                        <div className="Infographics-Info-Container">
+                            <span className="Infographics-Semi-Important-Number">4,797</span>
+                            <span className="Infographics-Label">No Information if patient was admitted or not</span>
+                        </div>
+                        <div className="Infographics-Info-Container">
+                            <span className="Infographics-Semi-Important-Number">258</span>
+                            <span className="Infographics-Label">Missing Location Data</span>
+                        </div>
+                    </div>
+                </div>
+                
                 <h2>If you can give, and you think what we're building has value</h2>
                 <h2>If you have the time</h2>
                 <div>

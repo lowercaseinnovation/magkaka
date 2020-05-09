@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Auth } from 'aws-amplify';
+import YourImpact from './YourImpact';
 import '../styles/Profile.css';
 import '../styles/Pages.css';
 
@@ -54,7 +55,7 @@ class ProfileSide extends React.Component {
                         <button className="Button">Log My Movement</button>
                     </div>
                     <div>
-                        Mini Data-Viz
+                        <YourImpact />
                     </div>
                     <div>
                         Feel free to contact us if you want to contribute to this app.
