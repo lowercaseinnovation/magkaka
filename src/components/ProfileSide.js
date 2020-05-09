@@ -5,6 +5,7 @@ import YourImpact from './YourImpact';
 import '../styles/Profile.css';
 import '../styles/Pages.css';
 
+// Sign-out button on top
 async function signOut() {
     try {
         await Auth.signOut({ global: true });
@@ -12,6 +13,8 @@ async function signOut() {
         console.log('error signing out: ', error);
     }
 }
+
+// 
 
 class ProfileSide extends React.Component {
     constructor(props) {
@@ -21,7 +24,7 @@ class ProfileSide extends React.Component {
             brgySubdivision: '',
             cityTown: '',
             province: '',
-            isOnboarded: true
+            isOnboarded: false
         }
     }
 
